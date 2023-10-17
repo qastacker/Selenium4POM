@@ -1,0 +1,12 @@
+<suite name="Suite">
+  <test thread-count="5" name="ErrorValidationTest">
+    <classes>
+      <class name="com.Tests.ErrorValidation"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="OrderAProduct">
+    <classes>
+      <class name="com.Tests.OrderAProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
