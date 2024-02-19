@@ -79,7 +79,7 @@ public class BaseTest {
 		driver.close();
 	}
 	
-	public String screensht(String tc) throws IOException {
+	public String screensht(String tc,WebDriver Driver) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir")+"//reports//"+tc+".png");
