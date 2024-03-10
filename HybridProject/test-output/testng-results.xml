@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-17T15:22:45 IST" name="Suite" finished-at="2023-10-17T15:23:05 IST" duration-ms="19179">
+  <suite started-at="2024-02-19T14:56:19 IST" name="Suite" finished-at="2024-02-19T14:56:52 IST" duration-ms="33141">
     <groups>
       <group name="Purchase">
-        <method signature="OrderAProduct.SubmitOrd(java.util.HashMap)[pri:0, instance:com.Tests.OrderAProduct@7857fe2]" name="SubmitOrd" class="com.Tests.OrderAProduct"/>
+        <method signature="OrderAProduct.SubmitOrd(java.util.HashMap)[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" name="SubmitOrd" class="com.Tests.OrderAProduct"/>
       </group> <!-- Purchase -->
       <group name="ErrorHandling">
-        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:com.Tests.ErrorValidation@5b247367]" name="LoginErrorValidation" class="com.Tests.ErrorValidation"/>
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:com.Tests.ErrorValidation@7ac0e420]" name="LoginErrorValidation" class="com.Tests.ErrorValidation"/>
       </group> <!-- ErrorHandling -->
     </groups>
-    <test started-at="2023-10-17T15:22:45 IST" name="ErrorValidationTest" finished-at="2023-10-17T15:22:51 IST" duration-ms="5941">
+    <test started-at="2024-02-19T14:56:19 IST" name="ErrorValidationTest" finished-at="2024-02-19T14:56:31 IST" duration-ms="12592">
       <class name="com.Tests.ErrorValidation">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.ErrorValidation@5b247367]" started-at="2023-10-17T15:22:46 IST" name="launchApp" finished-at="2023-10-17T15:22:50 IST" duration-ms="4756" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.ErrorValidation@7ac0e420]" started-at="2024-02-19T14:56:19 IST" name="launchApp" finished-at="2024-02-19T14:56:21 IST" duration-ms="2688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:com.Tests.ErrorValidation@5b247367]" started-at="2023-10-17T15:22:50 IST" name="LoginErrorValidation" finished-at="2023-10-17T15:22:51 IST" duration-ms="1064" status="PASS">
+        <test-method signature="LoginErrorValidation()[pri:0, instance:com.Tests.ErrorValidation@7ac0e420]" started-at="2024-02-19T14:56:21 IST" name="LoginErrorValidation" finished-at="2024-02-19T14:56:22 IST" duration-ms="966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.ErrorValidation@5b247367]" started-at="2023-10-17T15:22:51 IST" name="end" finished-at="2023-10-17T15:22:51 IST" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.ErrorValidation@7ac0e420]" started-at="2024-02-19T14:56:22 IST" name="end" finished-at="2024-02-19T14:56:22 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.ErrorValidation@7ac0e420]" started-at="2024-02-19T14:56:22 IST" name="launchApp" finished-at="2024-02-19T14:56:25 IST" duration-ms="2882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ProductValidation()[pri:0, instance:com.Tests.ErrorValidation@7ac0e420]" started-at="2024-02-19T14:56:25 IST" name="ProductValidation" finished-at="2024-02-19T14:56:31 IST" duration-ms="5834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductValidation -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.ErrorValidation@7ac0e420]" started-at="2024-02-19T14:56:31 IST" name="end" finished-at="2024-02-19T14:56:31 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.Tests.ErrorValidation -->
     </test> <!-- ErrorValidationTest -->
-    <test started-at="2023-10-17T15:22:45 IST" name="OrderAProduct" finished-at="2023-10-17T15:23:05 IST" duration-ms="19179">
+    <test started-at="2024-02-19T14:56:31 IST" name="OrderAProduct" finished-at="2024-02-19T14:56:52 IST" duration-ms="20261">
       <class name="com.Tests.OrderAProduct">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.OrderAProduct@7857fe2]" started-at="2023-10-17T15:22:46 IST" name="launchApp" finished-at="2023-10-17T15:22:51 IST" duration-ms="4762" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:32 IST" name="launchApp" finished-at="2024-02-19T14:56:33 IST" duration-ms="1651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:com.Tests.OrderAProduct@7857fe2]" started-at="2023-10-17T15:22:51 IST" name="SubmitOrd" data-provider="getData" finished-at="2023-10-17T15:22:57 IST" duration-ms="5926" status="PASS">
+        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:33 IST" name="SubmitOrd" data-provider="getData" finished-at="2024-02-19T14:56:39 IST" duration-ms="5796" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,15 +56,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrd -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.OrderAProduct@7857fe2]" started-at="2023-10-17T15:22:57 IST" name="end" finished-at="2023-10-17T15:22:57 IST" duration-ms="92" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:39 IST" name="end" finished-at="2024-02-19T14:56:39 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.OrderAProduct@7857fe2]" started-at="2023-10-17T15:22:57 IST" name="launchApp" finished-at="2023-10-17T15:22:59 IST" duration-ms="2001" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:39 IST" name="launchApp" finished-at="2024-02-19T14:56:41 IST" duration-ms="1686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:com.Tests.OrderAProduct@7857fe2]" started-at="2023-10-17T15:22:59 IST" name="SubmitOrd" data-provider="getData" finished-at="2023-10-17T15:23:05 IST" duration-ms="5901" status="PASS">
+        <test-method signature="SubmitOrd(java.util.HashMap)[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:41 IST" name="SubmitOrd" data-provider="getData" finished-at="2024-02-19T14:56:49 IST" duration-ms="8423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +75,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrd -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.OrderAProduct@7857fe2]" started-at="2023-10-17T15:23:05 IST" name="end" finished-at="2023-10-17T15:23:05 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:49 IST" name="end" finished-at="2024-02-19T14:56:49 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:49 IST" name="launchApp" finished-at="2024-02-19T14:56:51 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:51 IST" name="OrderHistoryTest" finished-at="2024-02-19T14:56:52 IST" depends-on-methods="com.Tests.OrderAProduct.SubmitOrd" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.Tests.OrderAProduct@eda25e5]" started-at="2024-02-19T14:56:52 IST" name="end" finished-at="2024-02-19T14:56:52 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

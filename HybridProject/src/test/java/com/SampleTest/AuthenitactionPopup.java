@@ -22,7 +22,7 @@ public class AuthenitactionPopup {
 		chromeDevTools.createSession();
 		chromeDevTools.send(Network.enable(Optional.of(0), Optional.of(0), Optional.of(0)));
 		HashMap<String,Object> headers = new HashMap<>();
-		String basicAuth = "Basic "+new String(new Base64().encode(String.format("%s:%s", "guest","guest").getBytes()));
+		//String basicAuth = "Basic "+new String(new Base64().encode(String.format("%s:%s", "guest","guest").getBytes()));
 		
 	
 	

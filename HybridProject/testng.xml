@@ -1,4 +1,12 @@
 <suite name="Suite">
+  
+  
+<listeners>
+<listener class-name="com.TestComp.Listeners"/>
+</listeners>  
+  
+  
+  
   <test thread-count="5" name="ErrorValidationTest">
     <classes>
       <class name="com.Tests.ErrorValidation"/>
